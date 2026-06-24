@@ -1,23 +1,36 @@
-# Titanic ML Project
+Titanic ML Project
+🎯 Goal
 
-## Goal
-Predict survival of Titanic passengers using Machine Learning.
+Predict survival of Titanic passengers using Machine Learning techniques.
 
-## Dataset
+📊 Dataset
+
 Kaggle Titanic dataset
 
-## Steps
-- Data cleaning
+⚙️ Workflow
+- Data cleaning and preprocessing
 - Feature selection
-- Train model
-- Evaluate accuracy
+- Model training using Decision Tree classifier
+- Model evaluation and performance analysis
+- Hyperparameter tuning (pruning) for optimization
 
-## Tools
-Python, Pandas, Scikit-learn
+🧰 Tools
+- Python
+- Pandas
+- Scikit-learn
 
-## Results
-- Achieved a final model accuracy of **83.78%** using a pruned Decision Tree (max_depth=3).
-- Identified **Sex**, **Age**, and **Pclass** as the most significant features influencing passenger survival.
+📈 Results
+- Final model accuracy: 83.78% using a pruned Decision Tree (max_depth=3)
+- Key features influencing survival:
+      Sex
+      Age
+      Pclass
+
+💡 Key Insights
+- Gender was the strongest predictor of survival.
+- Younger passengers had higher survival probability.
+- Passenger class significantly influenced outcomes.
+- Model performance improved after applying pruning techniques to reduce overfitting.
 
 
 ---
