@@ -1,30 +1,24 @@
-# titanic-ml-project
-A machine learning project analyzing the Titanic dataset to predict passenger survival using Logistic Regression. This project covers data cleaning, feature selection, and model evaluation.
+# Titanic ML Project
 
-# Titanic Survival Prediction Project
+## Goal
+Predict survival of Titanic passengers using Machine Learning.
 
-## Overview
-This machine learning project analyzes the Titanic dataset to predict passenger survival based on various features such as age, sex, and ticket class. The project demonstrates the end-to-end process of data preprocessing, feature selection, and model implementation using Logistic Regression.
+## Dataset
+Kaggle Titanic dataset
 
-## Project Structure
-* `/data`: Contains the `train.csv` dataset.
-* `notebook.ipynb`: Jupyter notebook containing the full data analysis and model training pipeline.
-* `requirements.txt`: List of required Python libraries for this project.
+## Steps
+- Data cleaning
+- Feature selection
+- Train model
+- Evaluate accuracy
 
-## Key Skills Demonstrated
-* **Data Cleaning**: Handling missing values (e.g., imputing missing age data) to ensure model accuracy.
-* **Feature Engineering**: Encoding categorical variables (e.g., Sex) into numerical formats.
-* **Model Building**: Implementing and evaluating a Logistic Regression model using Scikit-learn.
+## Tools
+Python, Pandas, Scikit-learn
 
-## Tools & Libraries
-* **Language**: Python
-* **Libraries**: Pandas, NumPy, Scikit-learn
-* **Environment**: Jupyter Notebook / VS Code
+## Results
 
-## How to Run
-1. Clone this repository to your local machine.
-2. Install the required dependencies: `pip install -r requirements.txt`.
-3. Open `notebook.ipynb` to view the analysis and training steps.
+.....................
+
 
 ---
 *Created by Andrew Tran
